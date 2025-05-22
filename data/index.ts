@@ -1,24 +1,24 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Nosotros", link: "#about" },
+  { name: "Proyectos", link: "#projects" },
+  { name: "Testimonios", link: "#testimonials" },
+  { name: "Contacto", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Priorizamos la colaboración cercana y la transparencia con cada cliente.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/chat.png",
     spareImg: "",
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Nos adaptamos a tu huso horario para ofrecer soporte ágil 24/7.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +28,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Actualizamos continuamente nuestro stack para desarrollar soluciones de vanguardia.",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Impulsamos la innovación con creatividad y experiencia.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Nuestro éxito nace de un equipo unido y multidisciplinario.",
+    description: "Trabajo en equipo",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +59,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Resultados que inspiran. ¡Contactanos!",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,33 +72,33 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "ProjectFlow - Gestión de proyectos con tableros Kanban",
+    des: "Organiza tareas, asigna responsables y visualiza el avance de tu equipo en tableros Kanban interactivos",
+    img: "/proyecto1.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/ui.earth.com",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "BrightLedger - Contabilidad simplificada para tu empresa",
+    des: "Controla ingresos, gastos y genera reportes financieros con un solo clic, todo desde un panel intuitivo.",
+    img: "/proyecto2.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "TopFutbol - Gestión integral de alumnos y cobros",
+    des: "Administra inscripciones, pagos y categorías de tus futbolistas en una interfaz ágil y fácil de usar.",
+    img: "/proyecto4.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: " SportCoach - Entrenamiento deportivo personalizado",
+    des: "Planifica rutinas, registra métricas de rendimiento y lleva un seguimiento en tiempo real del progreso de tus atletas.",
+    img: "/proyecto3.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
   },
@@ -107,33 +107,33 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Con Transito Seguro de Bright People optimizamos al máximo nuestra logística de flota. La interfaz es tan intuitiva que nuestro equipo la adoptó en días, y el soporte siempre estuvo pendiente de cada detalle.",
+    name: "Ecopetrol",
+    title: "María Rodríguez, Gerente de Operaciones de Ecopetrol",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "El módulo de SAIGT Web que nos implementó Bright People transformó completamente nuestra gestión académica. Ahora centralizamos matrículas, reportes y seguimiento de aprendices en un solo lugar.",
+    name: "SENA",
+    title: "Luis Gómez, Coordinador Nacional de Tecnología en el SENA",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Gracias a TecnoExpedientes de Bright People, digitalizamos el 100 % de nuestros trámites ciudadanos. El proceso se volvió más transparente y reducimos tiempos de atención en un 60 %.",
+    name: "Alcaldía de Cartagena",
+    title: "Catalina Pérez, Directora de Innovación Digital de la Alcaldía de Cartagena",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Con City Segura, nuestra plataforma de monitoreo ciudadano, hemos mejorado la respuesta ante incidentes urbanos. La capacidad de customizar alertas y mapas en tiempo real hizo la diferencia.",
+    name: "Migración Colombia",
+    title: "Mauricio Vargas, Jefe de Proyectos TI en Migración Colombia",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "La integración de Kairos GF desarrollada por Bright People nos permite procesar informes tributarios en minutos, con total cumplimiento normativo. Su equipo nos acompañó desde la idea hasta el despliegue en producción.",
+    name: "NovaFinanzas (Sector Privado – Financiero Tributario)",
+    title: "Camila Herrera, Directora de Tecnología en NovaFinanzas",
   },
 ];
 
@@ -173,29 +173,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Empresa joven, experiencia consolidada",
+    desc: "Bright People nace con espíritu dinámico y fresco, respaldada por un CEO con más de 20 años liderando proyectos tecnológicos de alto impacto.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Liderazgo experto",
+    desc: "Nuestra solidez proviene de la trayectoria de dirección de nuestro fundador: know-how de grandes empresas aplicado a la agilidad de una startup.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Innovación ágil",
+    desc: "Unimos la flexibilidad de un equipo compacto con metodologías ágiles, entregando valor desde el primer sprint y adaptándonos a tus necesidades.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Compromiso total",
+    desc: "Trabajamos de la mano contigo: atención 24/7, comunicación transparente y compromiso de excelencia en cada línea de código.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
