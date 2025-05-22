@@ -20,6 +20,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="icon" href="/4.png" sizes="any" />
+        {/* No añadir scripts que accedan a document aquí */}
       </head>
       <body className={inter.className}>
         <ThemeProvider
